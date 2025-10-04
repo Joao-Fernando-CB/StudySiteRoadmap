@@ -5,9 +5,9 @@ let perguntas = [];
 // ---------------- Carregar JSONs ----------------
 async function loadJSONs() {
   try {
-    const modulosResponse = await fetch('modulos.json');
+    const modulosResponse = await fetch('./modulos.json');
     modulos = await modulosResponse.json();
-    const perguntasResponse = await fetch('perguntas.json');
+    const perguntasResponse = await fetch('./perguntas.json');
     perguntas = await perguntasResponse.json();
   } catch (err) {
     console.error('Erro ao carregar JSONs:', err);
