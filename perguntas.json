@@ -1,0 +1,162 @@
+[
+  {
+    "moduleId": 1,
+    "questions": [
+      {
+        "q": "Qual algoritmo é mais indicado para encontrar o menor caminho em grafos com pesos negativos?",
+        "options": ["Dijkstra", "Bellman-Ford", "A*", "Floyd-Warshall"],
+        "answer": 1
+      },
+      {
+        "q": "Qual estrutura de dados é eficiente para consultas de intervalo e atualizações pontuais?",
+        "options": ["Segment Tree", "Fila", "Lista Ligada", "Heap"],
+        "answer": 0
+      },
+      {
+        "q": "O que o algoritmo de fluxo máximo resolve em grafos?",
+        "options": ["Menor caminho", "Máximo fluxo entre fontes e sumidouros", "Árvore geradora mínima", "Ordenação topológica"],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "moduleId": 2,
+    "questions": [
+      {
+        "q": "Qual conceito pertence à programação funcional?",
+        "options": ["Currying", "Mutex", "Classe abstrata", "Loop for"],
+        "answer": 0
+      },
+      {
+        "q": "Qual abordagem é usada para evitar problemas de race condition?",
+        "options": ["Programação imperativa", "Concorrência com locks", "Funções puras", "Recursão"],
+        "answer": 1
+      },
+      {
+        "q": "Async/await é um recurso relacionado a?",
+        "options": ["Funções puras", "Programação assíncrona", "Banco de dados", "Criptografia"],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "moduleId": 3,
+    "questions": [
+      {
+        "q": "O que é CQRS em arquitetura de sistemas?",
+        "options": ["Cache Query Reuse Strategy", "Command Query Responsibility Segregation", "Concurrent Queue Routing System", "Critical Queue Resource Setup"],
+        "answer": 1
+      },
+      {
+        "q": "Qual protocolo é usado para comunicação eficiente entre microserviços?",
+        "options": ["HTTP/1.1", "gRPC", "FTP", "SMTP"],
+        "answer": 1
+      },
+      {
+        "q": "Event Sourcing é usado para?",
+        "options": ["Manter histórico de eventos do sistema", "Autenticação de usuários", "Criptografia de dados", "Otimização de queries SQL"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "moduleId": 4,
+    "questions": [
+      {
+        "q": "RSA e ECC são algoritmos de?",
+        "options": ["Hashing", "Criptografia de chave pública", "Compressão de dados", "Controle de concorrência"],
+        "answer": 1
+      },
+      {
+        "q": "Qual é o objetivo de hardening em aplicações?",
+        "options": ["Melhorar performance", "Aumentar segurança", "Reduzir consumo de memória", "Otimizar queries"],
+        "answer": 1
+      },
+      {
+        "q": "Qual técnica é usada para autenticação segura em APIs?",
+        "options": ["JWT", "Dijkstra", "Heap", "Currying"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "moduleId": 5,
+    "questions": [
+      {
+        "q": "CNNs são usadas principalmente para?",
+        "options": ["Processamento de imagens", "Redes sociais", "Concorrência de threads", "Criptografia"],
+        "answer": 0
+      },
+      {
+        "q": "Q-learning é uma técnica de?",
+        "options": ["Aprendizado supervisionado", "Aprendizado não supervisionado", "Aprendizado reforçado", "Otimização linear"],
+        "answer": 2
+      },
+      {
+        "q": "Feature engineering é usada para?",
+        "options": ["Preparar dados para modelos de ML", "Gerenciar threads", "Desenhar UI", "Criptografar dados"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "moduleId": 6,
+    "questions": [
+      {
+        "q": "Qual banco de dados é NoSQL e distribuído?",
+        "options": ["MongoDB", "PostgreSQL", "MySQL", "SQLite"],
+        "answer": 0
+      },
+      {
+        "q": "Qual ferramenta é usada para processamento distribuído de grandes volumes de dados?",
+        "options": ["Hadoop", "Express", "Redux", "React"],
+        "answer": 0
+      },
+      {
+        "q": "Redis é mais indicado para?",
+        "options": ["Cache e armazenamento em memória", "Banco relacional", "Criptografia de dados", "Controle de concorrência"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "moduleId": 7,
+    "questions": [
+      {
+        "q": "OAuth2 é usado para?",
+        "options": ["Autenticação e autorização", "Criptografia simétrica", "Otimização de algoritmos", "Manipulação de arrays"],
+        "answer": 0
+      },
+      {
+        "q": "SSR significa?",
+        "options": ["Server Side Rendering", "Single State Route", "Secure Session Response", "Simple Stack Reuse"],
+        "answer": 0
+      },
+      {
+        "q": "Zustand e Redux são usados para?",
+        "options": ["Gerenciamento de estado", "Controle de threads", "Criação de gráficos", "Criptografia"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "moduleId": 8,
+    "questions": [
+      {
+        "q": "Gradiente descendente é usado em?",
+        "options": ["Otimização de funções", "Criptografia assimétrica", "Banco de dados", "Concorrência"],
+        "answer": 0
+      },
+      {
+        "q": "Programação linear é usada para?",
+        "options": ["Resolver problemas de otimização com restrições lineares", "Gerenciar threads", "Construir SPA", "Treinar redes neurais"],
+        "answer": 0
+      },
+      {
+        "q": "HPC se refere a?",
+        "options": ["High Performance Computing", "Hierarchical Programming Control", "Hypertext Processing Code", "Host Parallel Compiler"],
+        "answer": 0
+      }
+    ]
+  }
+]

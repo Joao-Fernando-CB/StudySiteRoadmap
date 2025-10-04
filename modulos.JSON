@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "title": "Módulo 1: Estruturas e Algoritmos Avançados",
+    "color": "purple",
+    "tasks": {
+      "readings": [
+        "Grafos avançados: Dijkstra, Bellman-Ford, A*, Floyd-Warshall",
+        "Estruturas de dados complexas: Segment Tree, Fenwick Tree, Skip Lists",
+        "Algoritmos em grafos para problemas reais: fluxo máximo, matching, árvore geradora mínima"
+      ],
+      "projects": [
+        "Implementar algoritmo A* para pathfinding em mapas grandes",
+        "Criar visualizador interativo de grafos com animação de algoritmos",
+        "Resolver problema de fluxo máximo com aplicação prática (ex.: rede logística)"
+      ],
+      "goals": [
+        "Dominar algoritmos complexos em grafos",
+        "Compreender trade-offs e otimizações em estruturas avançadas",
+        "Aplicar algoritmos avançados em projetos reais"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Módulo 2: Programação Funcional e Concorrência",
+    "color": "emerald",
+    "tasks": {
+      "readings": [
+        "Paradigmas funcionais aplicados: currying, composição, monads",
+        "Concorrência, paralelismo e programação assíncrona avançada",
+        "Modelos de comunicação entre threads/processos e gerenciamento de estado compartilhado"
+      ],
+      "projects": [
+        "Criar servidor web concorrente com balanceamento de carga",
+        "Implementar pipeline de processamento funcional para grandes volumes de dados",
+        "Simular concorrência em sistemas complexos (produtor/consumidor, barreiras, locks)"
+      ],
+      "goals": [
+        "Aprofundar conhecimento em paradigmas funcionais",
+        "Projetar e implementar sistemas concorrentes e paralelos",
+        "Entender modelos de programação assíncrona aplicada"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "Módulo 3: Arquitetura de Sistemas e Microserviços",
+    "color": "blue",
+    "tasks": {
+      "readings": [
+        "Arquiteturas modernas: microserviços, CQRS, Event Sourcing, serverless",
+        "Comunicação entre serviços: gRPC, mensageria, filas distribuídas",
+        "Tópicos avançados de escalabilidade e tolerância a falhas"
+      ],
+      "projects": [
+        "Desenvolver microserviço completo com mensageria e testes de resiliência",
+        "Simular falhas e implementar estratégias de tolerância a falhas",
+        "Monitoramento e métricas em tempo real para sistemas distribuídos"
+      ],
+      "goals": [
+        "Projetar sistemas escaláveis e resilientes",
+        "Aplicar padrões de arquitetura avançados",
+        "Gerenciar comunicação entre serviços complexos"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Módulo 4: Segurança e Criptografia",
+    "color": "red",
+    "tasks": {
+      "readings": [
+        "Criptografia moderna: RSA, ECC, AES, protocolos de chave pública",
+        "Segurança em sistemas distribuídos e APIs",
+        "Hardening de aplicações e análise de vulnerabilidades"
+      ],
+      "projects": [
+        "Implementar RSA e ECC do zero",
+        "Criar API segura com autenticação e criptografia ponta a ponta",
+        "Testar aplicações com técnicas de pentest básico avançado"
+      ],
+      "goals": [
+        "Compreender fundamentos de criptografia aplicada",
+        "Aplicar práticas de segurança em sistemas reais",
+        "Analisar e mitigar vulnerabilidades"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": "Módulo 5: Inteligência Artificial e Machine Learning",
+    "color": "pink",
+    "tasks": {
+      "readings": [
+        "Redes neurais profundas: feedforward, CNNs, RNNs",
+        "Aprendizado reforçado: Q-learning, policy gradients",
+        "Técnicas avançadas de pré-processamento e engenharia de features"
+      ],
+      "projects": [
+        "Implementar rede neural do zero para classificação de imagens",
+        "Criar agente de RL simples em ambiente simulado",
+        "Treinar modelos complexos em datasets reais e avaliar performance"
+      ],
+      "goals": [
+        "Construir e treinar modelos de ML do zero",
+        "Aplicar aprendizado reforçado em problemas simulados",
+        "Analisar e otimizar performance de modelos reais"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "Módulo 6: Banco de Dados e Big Data",
+    "color": "teal",
+    "tasks": {
+      "readings": [
+        "Bancos NoSQL avançados: Cassandra, MongoDB, Redis",
+        "Sistemas de processamento distribuído: Spark, Hadoop",
+        "Indexação avançada, particionamento e otimização de queries"
+      ],
+      "projects": [
+        "Construir pipeline de dados distribuído para análise de logs",
+        "Implementar sistema de cache distribuído com Redis",
+        "Criar consultas complexas e análise em grandes datasets"
+      ],
+      "goals": [
+        "Projetar e gerenciar sistemas de armazenamento distribuído",
+        "Analisar e processar grandes volumes de dados",
+        "Otimizar consultas e estruturas para alta performance"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "title": "Módulo 7: Desenvolvimento Full Stack Avançado",
+    "color": "orange",
+    "tasks": {
+      "readings": [
+        "Arquitetura SPA e SSR (React, Next.js, Angular)",
+        "State management avançado (Redux, Zustand, MobX)",
+        "Integração de APIs complexas e autenticação OAuth2/JWT"
+      ],
+      "projects": [
+        "Criar aplicação full-stack com autenticação e múltiplos microserviços",
+        "Implementar dashboard com dados em tempo real e WebSockets",
+        "Testes avançados e CI/CD para aplicação completa"
+      ],
+      "goals": [
+        "Desenvolver aplicações complexas de ponta a ponta",
+        "Integrar front-end e back-end de forma escalável",
+        "Aplicar testes e deploy automatizado profissional"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": "Módulo 8: Computação Científica e Otimização",
+    "color": "cyan",
+    "tasks": {
+      "readings": [
+        "Algoritmos de otimização: gradiente descendente, programação linear",
+        "Simulação e modelagem de sistemas complexos",
+        "Tópicos de HPC (High Performance Computing) e paralelismo massivo"
+      ],
+      "projects": [
+        "Implementar algoritmo de otimização para problema real",
+        "Simular sistema físico ou financeiro e analisar resultados",
+        "Paralelizar cálculo intensivo usando multi-threading ou GPU"
+      ],
+      "goals": [
+        "Resolver problemas complexos de otimização",
+        "Aplicar simulações e modelagem científica",
+        "Explorar paralelismo de alto desempenho"
+      ]
+    }
+  }
+]

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roadmap Gamificado</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<style>
+body{background:#111827;color:#f9fafb;font-family:'Segoe UI',sans-serif;}
+.card{border-radius:1rem;overflow:hidden;transition:transform 0.3s,box-shadow 0.3s;position:relative;cursor:pointer;}
+.card:hover{transform:translateY(-6px);box-shadow:0 20px 30px rgba(0,0,0,0.4);}
+.card-body{max-height:0;overflow:hidden;transition:max-height 0.5s ease,padding 0.5s ease;}
+.card.active .card-body{max-height:1000px;padding:1rem;}
+.progress-bar{transition:width 0.3s ease;height:0.75rem;border-radius:9999px;}
+.badge{position:absolute;top:0.5rem;right:0.5rem;padding:0.25rem 0.5rem;font-weight:bold;opacity:0;transition:opacity 0.5s;background:gold;color:#111827;border-radius:0.25rem;}
+.badge.show{opacity:1;animation:badge-sparkle 1s ease infinite alternate;}
+@keyframes badge-sparkle{0%{transform:scale(1);}50%{transform:scale(1.1) rotate(3deg);}100%{transform:scale(1);}}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);justify-content:center;align-items:center;z-index:50;}
+.modal.show{display:flex;}
+.modal-content{background:#f3f4f6;color:#111827;border-radius:1rem;padding:2rem;max-width:600px;width:90%;max-height:90vh;overflow-y:auto;}
+.option{padding:0.75rem 1rem;border-radius:0.75rem;cursor:pointer;font-weight:500;transition:all 0.3s;background:#e5e7eb;margin-bottom:0.5rem;}
+.option:hover{transform:scale(1.03);box-shadow:0 4px 12px rgba(0,0,0,0.15);}
+.option.correct{background:#22c55e;color:white;}
+.option.wrong{background:#ef4444;color:white;}
+</style>
+</head>
+<body>
+
+<header class="text-center py-6 bg-gray-900 shadow-lg">
+<h1 class="text-3xl font-bold text-yellow-400">Roadmap RPG Gamificado</h1>
+<p class="text-gray-300 mt-1">Complete tarefas e quizzes para desbloquear badges!</p>
+<div class="mx-auto mt-4 w-3/4">
+<div class="w-full bg-gray-700 h-5 rounded-full">
+<div id="global-progress" class="progress-bar" style="width:0%; background:linear-gradient(to right,#fcd34d,#f59e0b)"></div>
+</div>
+<p class="mt-1 text-gray-200 text-sm">XP: <span id="xp">0</span> | Nível: <span id="level">1</span></p>
+</div>
+</header>
+
+<div class="text-center mt-6">
+  <button id="resetProgress" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">
+    Zerar Progresso
+  </button>
+</div>
+
+<main id="cards-container" class="container mx-auto p-6 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2"></main>
+
+<div id="quiz-modal" class="modal">
+<div class="modal-content transform scale-95 transition-transform duration-300">
+<h3 id="quiz-title" class="text-2xl font-bold text-gray-900 mb-4 text-center"></h3>
+<div id="quiz-question-container" class="space-y-4"></div>
+<div class="flex justify-between mt-4">
+<button id="prev-question" class="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg">Anterior</button>
+<button id="next-question" class="px-4 py-2 bg-blue-500 text-white rounded-lg">Próxima</button>
+<button id="finish-quiz" class="px-4 py-2 bg-green-500 text-white rounded-lg hidden">Finalizar</button>
+</div>
+<button id="close-modal" class="mt-4 w-full py-3 bg-red-500 text-white font-semibold rounded-lg shadow-md">Fechar</button>
+</div>
+</div>
+
+<footer class="text-center py-6 bg-gray-800 mt-10 text-gray-400">
+Roadmap Gamificado por João Fernando Cardoso Braulio
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
